@@ -1,0 +1,43 @@
+html {
+    font-size: 10px; 
+    /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family: "Open Sans", sans-serif;
+     /* 这是从 Google Fonts 得到的其余输出。 */
+    background-color: #00539f;
+  }
+  
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+img {
+    display: block;
+    /* <body> 元素是块级元素，意味着它占据了页面的空间并且能够赋予外边距和其他改变间距的值。而图片是行级元素，不具备块级元素的一些功能。所以为了使图像有外边距，我们必须使用 display: block 给予其块级行为。 */
+    margin: 0 auto;
+  }
+  
+
+body {
+    width: 600px; 
+    /* 强制页面永远保持 600 像素宽。 */
+    margin: 0 auto; 
+    /* margin是外边距，css布局基于盒子模型padding，border，margin。 */
+    /* 注释快捷键comd加/ */
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
